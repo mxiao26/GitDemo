@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBAction func onClick(_ sender: UIButton) {
+        print("the button was clicked")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

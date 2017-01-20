@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var textLabel: UILabel!
     
     @IBAction func onClick(_ sender: UIButton) {
         print("the button was clicked")
